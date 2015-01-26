@@ -296,17 +296,16 @@ form input[type=submit]:hover {
 
 @media screen and (max-width:1000px) {
 	
-	
 	nav ul {
 		width: 100%; 
 		margin: 0 auto;
 	}
-	
 		
     .escape {
         float: none;
         margin: 0 auto
     }
+    
     #baseball {
     	zoom: 40%;
     }
