@@ -221,14 +221,15 @@ textarea:focus {
 
 form input[type=submit] {
   padding: 5px 10px;
-  background-color: #5C87BE;
+  background-color: #020F46;
   border-radius: 5px;
   color: #C2C7C7;
   border: none;
 }
 
 form input[type=submit]:hover {
-  background-color: #020F46;
+  color: #020F46;
+  background-color: #A40C34;
 }
 
 @media (max-width: 600px) {

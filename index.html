@@ -10,12 +10,13 @@
 	<body>
 		<div class="container">
 			<form action="#">
-
+				<!--Header-->
 				<header>
 					<div class="escape"></div>
 					<h2>Player Sign Up Form</h2>
 					<div id="edition"><img src="images/First-Edition.png" alt="" /></div>
 				</header>
+				<!--Navigation-->
 					<nav>
 						<ul>
 							<li><a href="#player">Player</a></li>
@@ -23,30 +24,35 @@
 							<li><a href="#card">Credit Card</a></li>
 						</ul>
 					</nav>
+					<!--Main Content-->
+						<!--Player Information-->
 				<div>
 					<label class="desc" id="title4" for="Field4">
 						<h3 id="player">Player Information</h3>
 					</label>
 				</div>
+				<!--First Name-->
 				 <div>
 				 	<label class="desc" id="first" for="firstname">First Name</label>
 				 	<div>
 				 		<input id="firstname" name="firstname" type="textfield" class="field text fn" value="" size="8" tabindex="1">
 				 	</div>
 				 </div>
+				<!--Last Name--> 
 				<div>
 					<label class="desc" id="last" for="lastnamename">Last Name</label>
 					<div>
 						<input id="lastname" name="lastnamename" type="text" class="field text fn" value="" size="8" tabindex="1">
 					</div>
 				</div>
+				<!--Birthday-->
 				<div>
 					<label class="desc" id="last" for="birthday">Birthday</label>
 					<div>
 						<input id="birthday" name="Birthday" type="date"  value="mm/dd/yyyy" size="8" tabindex="1">
 					</div>
 				</div>  
-				
+				<!--Skill Level-->
 				<div>
 				    <label for="points">Skill Level:</label>
 				    <div id="skill">
@@ -55,6 +61,7 @@
 				    	<input type="range" name="points" id="points" value="5" min="1" max="10">
 				    </div>
 				</div>
+				<!--Goals-->
 				<div>
 				    <label class="desc" id="title4" for="Field4">
 				      What are your goals:
@@ -65,18 +72,20 @@
 				    </div>
 				  </div>
 				<hr>
+				<!--Billing Information-->
 				<div>
 					<label class="desc" id="title4" for="Field4">
 						<h3 id="billing">Billing Information</h3>
 					</label>
 				</div>
+				<!--Full Name-->
 				<div>
 					<label class="desc" id="title1" for="fullname">Full Name</label>
 					<div>
 						<input id="fullname" name="fullname" type="text" class="field text fn" value="" size="8" tabindex="1">
 					</div>
 				</div>
-
+				<!--Address-->
 				<div>
 					<label class="desc" id="title3" for="Field3">
 						Address 1
@@ -85,7 +94,6 @@
 						<input type="text" placeholder="Street address, P.O. box, company name, c/o"> 
 					</div>
 				</div>
-
 				<div>
 					<label class="desc" id="title3" for="Field3">
 						Address 2
@@ -94,7 +102,7 @@
 						<input type="text" placeholder="Street address, P.O. box, company name, c/o"> 
 					</div>
 				</div>
-
+				<!--City-->
 				<div>
 					<label class="desc" id="title3" for="Field3">
 						City:
@@ -103,7 +111,7 @@
 						<input type="text"> 
 					</div>
 				</div>
-
+				<!--State-->
 				<div>
 					<label class="desc" id="title3" for="Field3">
 						State/Region:
@@ -112,7 +120,7 @@
 						<input type="text"> 
 					</div>
 				</div>
-
+				<!--zip-->
 				<div>
 					<label class="desc" id="title3" for="Field3">
 						Zip:
@@ -121,6 +129,7 @@
 						<input type="text"> 
 					</div>
 				</div>
+				<!--Country-->
 				<div>
 					<label class="desc" id="title106" for="Field106">
 						Country:
@@ -376,11 +385,13 @@
 					</div>
 				</div>
 				<hr>
+				<!--Credit Card Information-->
 				<div>
 					<label class="desc" id="title4" for="Field4">
-						<h3 id="card">Credit Card Info</h3>
+						<h3 id="card">Credit Card Information</h3>
 					</label>
 				</div>
+				<!--Type of Card-->
 				<div>
 					<fieldset>
 
@@ -405,21 +416,25 @@
 						</div>
 					</fieldset>
 				</div>
+				<!--Name on Card-->
 				<div>
 					<label class="desc" id="title1" for="Field1">Name on Card</label>
 					<div>
 						<input type="text">
 					</div>
 				</div>
+				<!--Card Number-->
 				<div>
 					<label class="desc" id="title1" for="Field1">Card Number</label>
 					<div>
 						<input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
 					</div>
 				</div>
+				<!--Expiration Date-->
 				<div>
-					<label class="fixheight">Experation Date</label>
+					<label class="fixheight">Expiration Date</label>
 				</div>
+				<!--Month-->
 				<div>
 					<label class="desc" id="title106" for="Field106">
 						Month
@@ -428,7 +443,7 @@
 						<select id="Field106" name="Field106" class="field select medium" tabindex="11"> 
 							<option value="">Select a Month</option>
 							<option value="1">01 January</option>
-							<option value="2">02 Febuary</option>
+							<option value="2">02 February</option>
 							<option value="3">03 March</option>
 							<option value="4">04 April</option>
 							<option value="5">05 May</option>
@@ -442,6 +457,7 @@
 						</select>
 					</div>
 				</div>
+				<!--Year-->
 				<div>
 					<label class="desc" id="title106" for="Field106">
 						Year
@@ -479,7 +495,8 @@
 
 						</select>
 					</div>
-				</div> 
+				</div>
+				<!--submit--> 
 				<div>
 					<div>
 						<input id="saveForm" name="saveForm" type="submit" value="Submit">
