@@ -228,8 +228,8 @@ form input[type=submit] {
 }
 
 form input[type=submit]:hover {
-  color: #020F46;
-  background-color: #A40C34;
+	color: #020F46;
+	background-color: #A40C34;
 }
 
 @media (max-width: 600px) {
