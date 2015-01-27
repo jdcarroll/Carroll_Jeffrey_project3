@@ -6,6 +6,11 @@
 		<title>Next Lvl Sports Sign Up Form</title>
 		<link href='http://fonts.googleapis.com/css?family=Jura' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="webshim-1.15.6/js-webshim/minified/polyfiller.js" type="text/javascript"></script>
+		<script>
+			$.webshims.polyfill();
+		</script>
 	</head>
 	<body>
 		<div class="container">
@@ -58,7 +63,7 @@
 				    <div id="skill">
 				    	<div id="novice">Novice</div>
 				    	<div id="pro">Professional</div>
-				    	<input type="range" name="points" id="points" value="5" min="1" max="10">
+				    	<input id="howYouRateIt" name="howYouRateIt" type="range" min="0" max="10" Value="5" onchange="showValue(this.value)"><span id="range">5</span>
 				    </div>
 				</div>
 				<!--Goals-->
@@ -504,6 +509,7 @@
 				</div> 
 			</form>
 		</div>
-		<div id="baseball"><img src="images/BaseBall_300.png"</div>
+		<div class="baseBallT" id="baseball"><img src="images/BaseBall_300.png"</div>
+		<script src="js/main.js"></script>
 	</body>
 </html>

@@ -50,6 +50,26 @@ body {
 	bottom: 0px;
 }
 
+.baseBallT {
+transition:All 1s ease;
+-webkit-transition:All 1s ease;
+-moz-transition:All 1s ease;
+-o-transition:All 1s ease;
+transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-webkit-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-moz-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-o-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+-ms-transform: rotate(4deg) scale(1) skew(1deg) translate(10px);
+}
+.BaseBallT:hover{
+transform: rotate(243deg) scale(1) skew(1deg) translate(0px);
+-webkit-transform: rotate(243deg) scale(1) skew(1deg) translate(0px);
+-moz-transform: rotate(243deg) scale(1) skew(1deg) translate(0px);
+-o-transform: rotate(243deg) scale(1) skew(1deg) translate(0px);
+-ms-transform: rotate(243deg) scale(1) skew(1deg) translate(0px);
+}
+
+
 #edition {
 	position: absolute;
 	top: 0px;
